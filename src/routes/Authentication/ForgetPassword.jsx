@@ -44,7 +44,7 @@ const ForgetPasword = () => {
 
     try {
       const result = await fetch(
-        `${import.meta.env.VITE_API_BASE_URL}/caoch/reset`,
+        `${import.meta.env.VITE_API_BASE_URL}/coach/reset`,
         {
           method: "PATCH",
           body: formData,
